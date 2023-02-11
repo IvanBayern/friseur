@@ -1,27 +1,27 @@
-// variables
-@import "./variables/variables";
+@import './utils/mixins';
+@import './utils/variables';
+@import './utils/visually-hidden';
 
-// utils
-@import "./utils/mixins";
-@import "./utils/visually-hidden";
-@import "./utils/animation-pulsate";
+@import './base/common';
+@import './base/container';
+@import './base/section';
 
-// base styles
-@import "./base/base";
+@import './components/backdrop';
+@import './components/buttons';
+@import './components/mobile-menu';
+@import './components/modal-form';
+@import './components/modal-window';
 
-// conponents main page
-@import "./components/btn";
-@import "./components/form/module";
-@import "./components/modal";
-@import "./components/container";
+@import './layout/about';
+@import './layout/barbers';
+@import './layout/booking';
+@import './layout/footer';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/services';
+@import './layout/whyus';
+@import './layout/works';
 
-@import "./components/header";
-@import "./components/hero";
-@import "./components/about";
-@import "./components/price";
-@import "./components/advantages";
-@import "./components/team";
-@import "./components/gallery";
 
-@import "./components/contacts";
-@import "./components/footer";
+
+
